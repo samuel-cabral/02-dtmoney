@@ -28,7 +28,7 @@ export function TransactionsTable() {
                   }).format(transaction.amount)
                 ) : (
                   <>
-                    -
+                    -{' '}
                     {new Intl.NumberFormat('pt-BR', {
                       style: 'currency',
                       currency: 'BRL',
